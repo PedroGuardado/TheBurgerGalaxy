@@ -1,0 +1,126 @@
+* {
+    font-family: "Space Mono";
+    font-size: 16px;
+    color: snow;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    background-image: url("./images/galaxy\ background.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+    gap: 35px;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 2.8rem;
+}
+
+#mission {
+    margin-top: 80px;
+    height: 300px;
+    background-image: url("./images/burger\ -\ banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mission h2 {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.mission-statement p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#menu {
+    margin-top: 80px;
+}
+
+#menu h2 {
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-items figcaption {
+    text-align: center;
+    caption-side: bottom;
+}
+
+.burger-1 img {
+    width: 350px;
+    height: 300px;
+}
+
+.burger-2 img {
+    width: 350px;
+    height: 300px;
+}
+
+.burger-3 img {
+    width: 350px;
+    height: 300px;
+}
+
+#owner {
+    margin-top: 80px;
+}
+
+#owner h2 {
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+#owner p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.owner-chef {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owner-chef img {
+    width: 500px;
+    height: 300px;
+}
+
+#contact footer {
+    margin-top: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
